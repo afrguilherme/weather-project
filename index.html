@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Climatempo</title>
+  </head>
+  <body>
+    <div class="container">
+      <input id="city-name-input" placeholder="Type the city name" />
+      <button onclick="searchButtonClick()">
+        <img
+          class="search-image"
+          alt="search-icon"
+          src="https://www.svgrepo.com/show/488200/find.svg"
+        />
+      </button>
+
+      <div class="medium-box">
+        <h2 id="city-id">Weather in Rio de Janeiro</h2>
+        <p class="temp">21ºC</p>
+
+        <div class="small-box">
+          <img
+            class="weather-image"
+            alt="weather-info-icon"
+            src="https://openweathermap.org/img/wn/04n.png"
+          />
+          <p class="weather-text">Cloudy</p>
+        </div>
+
+        <p class="humidity">Humidity: 76%</p>
+      </div>
+    </div>
+  </body>
+  <script src="./scripts.js"></script>
+</html>
+
+<!-- <img src="https://www.svgrepo.com/show/488200/find.svg" /> -->
