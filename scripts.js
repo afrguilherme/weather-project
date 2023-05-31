@@ -1,7 +1,6 @@
 const key = "1eccbcdd5053425814a3e12aa42f8348";
 
 function showDataOnScreen(data) {
-  console.log(data);
   document.querySelector("#city-id").innerHTML = "Weather in " + data.name;
   document.querySelector(".temp").innerHTML = data.main.temp.toFixed(1) + "ºC";
   document.querySelector(".weather-text").innerHTML =

@@ -43,6 +43,14 @@ button {
   float: right;
 }
 
+button:hover {
+  background-color: #c0c0c02b;
+}
+
+button:active {
+  opacity: 0.5;
+}
+
 .search-image {
   width: 20px;
 }
